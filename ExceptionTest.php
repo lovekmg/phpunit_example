@@ -1,6 +1,7 @@
 <?php
+use PHPUnit\Framework\TestCase;
 // 주석으로 예외 발생
-//class ExceptionTest extends PHPUnit_Framework_TestCase
+//class ExceptionTest extends TestCase
 //{
     /**
      * @expectedException InvalidArgumentException
@@ -26,7 +27,7 @@
 //}
 
 /* method로 예외 발생
-class ExceptionTest extends PHPUnit_Framework_TestCase
+class ExceptionTest extends TestCase
 {
     public function testException()
     {
@@ -44,7 +45,7 @@ class ExceptionTest extends PHPUnit_Framework_TestCase
     }
 }
 */
-class ExceptionTest extends PHPUnit_Framework_TestCase
+class ExceptionTest extends TestCase
 {
     public function testException()
     {

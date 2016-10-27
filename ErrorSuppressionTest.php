@@ -1,5 +1,6 @@
 <?php
-class ErrorSuppressionTest extends PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+class ErrorSuppressionTest extends TestCase
 {
     public function testFileWriting()
     {
